@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV Izacki | System Architect & Security</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=JetBrains+Mono&family=Geist:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+
+    <header>
+        <div class="logo">DEV_IZACKI</div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="theme-switch-wrapper">
+            <button id="theme-toggle" class="theme-hud-btn">
+                <span class="hud-line"></span>
+                <span id="theme-text">MODO_COFFEE</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1>DEV Izacki<span class="typing-cursor">_</span></h1>
+                    
+                    <div class="status-container">
+                        <span class="status-dot"></span>
+                        <span class="status-text">SYSTEM_STATUS: DISPONÍVEL PARA BACK-END & SEGURANÇA</span>
+                    </div>
+
+                    <p>Estudante de Ciência da Computação com atuação na interseção entre Engenharia de Software e Cibersegurança. Formação em desenvolvimento back-end com Java e Python, com domínio de Redes de Computadores, administração de Sistemas Operacionais (Linux e Windows) e Computação em Nuvem — AWS, incluindo EC2, S3, IAM, VPC e CloudWatch. Formação em Red Team pelo programa Hackers do Bem, com foco em identificação de vulnerabilidades, Pentest, Criptografia e Governança, Riscos e Compliance. Busca oportunidade como Desenvolvedor Back-end ou Analista de Segurança da Informação, aplicando conhecimentos em desenvolvimento seguro e testes de intrusão.</p>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/IzaqueSilva" target="_blank" class="link-btn">GitHub_</a>
+                        <a href="https://www.linkedin.com/in/izaque-silva" target="_blank" class="link-btn">LinkedIn_</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="tech-hud">
+                        <div class="hud-header">SECURITY_LOG.txt</div>
+                        <div class="hud-body">
+                            <p>Initializing security protocols...</p>
+                            <p>AWS Environment: STABLE</p>
+                            <p>Java Runtime: ACTIVE</p>
+                            <p>Pentest Mode: READY</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="formacao" class="content-section">
+            <h2>Operation_History</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Educação</h3>
+                    <p>Bacharelado em Ciência da Computação<br>UNINTER | 03/2024 - 03/2028</p>
+                </div>
+                <div class="card">
+                    <h3>Competências Técnicas</h3>
+                    <ul class="tech-list">
+                        <li>Java 21 | Spring Boot | REST API</li>
+                        <li>AWS (EC2, S3, IAM, VPC, CloudWatch)</li>
+                        <li>Red Team | Pentest | Docker | CI/CD</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="content-section">
+            <h2>Deployed_Modules</h2>
+            <div class="grid">
+                <div class="card project-card">
+                    <span class="tag">JAVA | SPRING | DOCKER</span>
+                    <h3>MedAlerta UNINTER</h3>
+                    <p>Gerenciamento de medicamentos com arquitetura em camadas e pipeline de CI/CD via GitHub Actions.</p>
+                    <a href="https://github.com/IzaqueSilva/Bootcamp-I-" target="_blank" class="project-link">Ver Repositório_</a>
+                </div>
+                <div class="card project-card">
+                    <span class="tag">JAVA 25 | IA</span>
+                    <h3>Santander Dev Week 2024</h3>
+                    <p>API RESTful integrada com IA Generativa (OpenAI/Gemini) e deploy em AWS Elastic Beanstalk.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="content-section">
+            <h2>Establish_Connection</h2>
+            <div class="card contact-card">
+                <form id="form-contato">
+                    <div class="input-group">
+                        <label>Identity_Name</label>
+                        <input type="text" id="nome" required placeholder="GUEST_USER">
+                    </div>
+                    <div class="input-group">
+                        <label>Secure_Email</label>
+                        <input type="email" id="email" required placeholder="izaquesilva070@gmail.com">
+                    </div>
+                    <div class="input-group">
+                        <label>Message_Payload</label>
+                        <textarea id="mensagem" rows="4" required placeholder="INITIALIZE_TRANSMISSION..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Enviar Transmissão</button>
+                </form>
+                <div id="feedback" class="success-msg" style="display: none;">TRANSMISSÃO CONCLUÍDA!</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 DEV IZACKI | Santa Helena, MA | <a href="https://github.com/IzaqueSilva" target="_blank" style="color: inherit; text-decoration: none;">github.com/IzaqueSilva</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
